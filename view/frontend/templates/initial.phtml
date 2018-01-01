@@ -1,0 +1,14 @@
+<script>
+    requirejs(
+        ['jquery', 'siyuQuickView'],
+        function($, quickview) {
+            $(document).ready(function() {
+                $('.siyu-quickview').bind('click', function() {
+                    let productUrl = $(this).attr('data-quickview-url');
+                    if (productUrl.length > 0) {
+                        quickview.displayContent(productUrl);
+                    }
+                });
+            });
+        });
+</script>
