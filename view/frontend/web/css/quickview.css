@@ -211,33 +211,33 @@
     display: block;
     padding-top: 60px;
     width: 100%;
-  }
+}
 
-  .tingle-modal-box {
+.tingle-modal-box {
     width: auto;
     border-radius: 0;
-  }
+}
 
-  .tingle-modal-box__content {
+.tingle-modal-box__content {
     overflow-y: scroll;
-  }
+}
 
-  .tingle-modal--noClose {
+.tingle-modal--noClose {
     top: 0;
-  }
+}
 
-  .tingle-modal--noOverlayClose {
+.tingle-modal--noOverlayClose {
     padding-top: 0;
-  }
+}
 
-  .tingle-modal-box__footer .tingle-btn {
+.tingle-modal-box__footer .tingle-btn {
     display: block;
     float: none;
     margin-bottom: 1rem;
     width: 100%;
-  }
+}
 
-  .tingle-modal__close {
+.tingle-modal__close {
     top: 0;
     right: 0;
     left: 0;
@@ -249,19 +249,64 @@
     box-shadow: none;
     color: #fff;
     line-height: 55px;
-  }
+}
 
-  .tingle-modal__closeLabel {
+.tingle-modal__closeLabel {
     display: inline-block;
     vertical-align: middle;
     font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  }
+}
 
-  .tingle-modal__closeIcon {
+.tingle-modal__closeIcon {
     display: inline-block;
     margin-right: .5rem;
     vertical-align: middle;
     font-size: 4rem;
-  }
+}
+}
+
+/**
+ * QuickView CSS
+ */
+.siyu-quickview {
+    display: none;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+}
+
+.quickview-button__wrapper {
+    background-color: #006bb49c;
+    position: absolute;
+    top: 288px;
+    z-index: 99999;
+    width:240px;
+    color: white;
+}
+
+.product-item-info:hover .siyu-quickview{
+    display: block;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.product-item {
+    position: relative;
+}
+
+.icon-search:before {
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    content: '\e615';
+    font-family: 'luma-icons';
+    vertical-align: top;
+    display: inline-block;
+    font-weight: normal;
+    overflow: hidden;
+    speak: none;
+    text-align: center;
 }
