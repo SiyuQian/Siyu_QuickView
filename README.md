@@ -13,6 +13,15 @@ There are some of the **QuickView extensions** out there already **why build thi
 3. Having an own version so easier to maintain and extend.
 
 ## Installation
+composer require siyu/magento-2-quickview:dev-master
+./bin/magento module:enable Siyu_QuickView
+./bin/magento setup:upgrade
+./bin/magento setup:di:compile
+
+## Uninstall
+./bin/magento module:disable Siyu_QuickView --clear-static-content
+composer remove siyu/magento-2-quickview
+./bin/magento setup:di:compile
 
 ## Feature list
 1. No jQuery dependency
