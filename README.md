@@ -38,6 +38,12 @@ composer remove siyu/magento-2-quickview
 3. Allow to add cross-sell & related products slider in QuickView popup
 4. Allow to set different size of QuickView popup window
 5. Ajax-add-to-cart in Quick View window
-6. Allow users to install the extension by **Composer**
 
 ## CHANGELOG
+
+### v1.0.0
+Notes:
+1. Allow users to install the extension by **Composer**
+2. Documentation update: installation & uninstall guide
+
+Released on 2018-01-14
