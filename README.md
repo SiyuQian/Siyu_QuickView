@@ -41,6 +41,12 @@ composer remove siyu/magento-2-quickview
 6. Use 'scss/less' as extension css source & remove duplicate icon-search class 
 
 ## CHANGELOG
+### v1.0.1
+Notes:
+1. Improve **QuickView** button style
+2. Added search icon
+
+Released on 2018-01-14
 
 ### v1.0.0
 Notes:
