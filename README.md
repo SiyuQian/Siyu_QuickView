@@ -38,6 +38,7 @@ composer remove siyu/magento-2-quickview
 3. Allow to add cross-sell & related products slider in QuickView popup
 4. Allow to set different size of QuickView popup window
 5. Ajax-add-to-cart in Quick View window
+6. Use 'scss/less' as extension css source & remove duplicate icon-search class 
 
 ## CHANGELOG
 
