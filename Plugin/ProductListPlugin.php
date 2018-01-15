@@ -58,8 +58,8 @@ class ProductListPlugin
     )
     {
         $result = $proceed($product);
-        $active = $this->scopeConfig->getValue(self::CONFIG_PATH_QUICKVIEW_ENABLED, ScopeInterface::SCOPE_STORE);
-        if ($active) {
+        $isActive = $this->scopeConfig->getValue(self::CONFIG_PATH_QUICKVIEW_ENABLED, ScopeInterface::SCOPE_STORE);
+        if ($isActive) {
             $buttonText = $this->scopeConfig->getValue(self::CONFIG_PATH_QUICKVIEW_TEXT, ScopeInterface::SCOPE_STORE);
             $quickviewUrl = $this->urlInterface->getUrl(
                 'quickview/catalog_product/view',
@@ -72,7 +72,7 @@ class ProductListPlugin
                 $buttonClasses = str_replace(',', ' ', $buttonClasses);
             }
 
-            $result = $this->blockFactory->createBlock('\Siyu\QuickView\Block\Anchor')
+            $result .= $this->blockFactory->createBlock('\Siyu\QuickView\Block\Anchor')
                                ->setTemplate('Siyu_QuickView::anchor.phtml')
                                ->setButtonText($buttonText)
                                ->setQuickViewUrl($quickviewUrl)

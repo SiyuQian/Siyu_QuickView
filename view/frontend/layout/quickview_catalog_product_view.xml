@@ -9,5 +9,6 @@
         <referenceBlock name="page.top" remove="true" />
         <referenceBlock name="copyright" remove="true" />
         <referenceBlock name="authentication-popup" remove="true" />
+        <referenceBlock name="product.info.details" remove="true"/>
     </body>
 </page>
