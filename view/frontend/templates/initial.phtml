@@ -1,14 +1,25 @@
 <script>
-    requirejs(
-        ['jquery', 'siyuQuickView'],
-        function($, quickview) {
+    requirejs([
+            'jquery',
+            'Magento_Ui/js/modal/modal'
+        ],
+        function($, modal) {
             $(document).ready(function() {
                 $('.siyu-quickview').bind('click', function() {
-                    let productUrl = $(this).attr('data-quickview-url');
-                    if (productUrl.length > 0) {
-                        quickview.displayContent(productUrl);
-                    }
+                    $('#js-quickview-popup').modal({
+                        title: 'QuickView',
+                        autoOpen: true,
+                        responsive: true,
+                        buttons: [{
+                            text: 'close',
+                            class: '.siyu-quickview',
+                            click: function() {
+                                this.closeModal();
+                            } //handler on button click
+                        }]
+                    });
                 });
             });
-        });
+        }
+    );
 </script>

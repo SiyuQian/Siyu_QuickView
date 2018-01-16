@@ -4,7 +4,7 @@
         <css src="Siyu_QuickView::css/quickview.css" />
     </head>
     <body>
-        <referenceContainer name="before.body.end">`
+        <referenceContainer name="before.body.end">
             <block class="\Siyu\QuickView\Block\Initial" name="siyu.quickview.initial" template="Siyu_QuickView::initial.phtml" />
         </referenceContainer>
     </body>
