@@ -29,18 +29,34 @@ composer remove siyu/magento-2-quickview
 
 ## Feature list
 1. No jQuery dependency
-2. No iframe
-3. No third party module dependency
+2. No third party module dependency
+3. Use Magento 2 Modal Widget
 
 ## Todo List
 1. Support different product types
 2. Performance improvement
 3. Allow to add cross-sell & related products slider in QuickView popup
-4. Allow to set different size of QuickView popup window
-5. Ajax-add-to-cart in Quick View window
-6. Use 'scss/less' as extension css source & remove duplicate icon-search class 
+4. Allow settings of different sizes of QuickView popup window
+5. Ajax-add-to-cart support
+6. Use 'scss/less' as extension css source & remove duplicate icon-search class
+7. Add options in backend for various custom needs
 
 ## CHANGELOG
+
+### v1.0.3
+Notes:
+1. Fix swatches now displaying problem in the quickview popup window
+
+Released on 2018-01-17
+
+### v1.0.2
+Notes:
+1. Remove tingle js library
+2. Using Magento Modal Widget instead
+3. Use iframe in quickview popup
+
+Released on 2018-01-16
+
 ### v1.0.1
 Notes:
 1. Improve **QuickView** button style
