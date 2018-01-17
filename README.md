@@ -28,9 +28,8 @@ composer remove siyu/magento-2-quickview
 ```
 
 ## Feature list
-1. No jQuery dependency
-2. No third party module dependency
-3. Use Magento 2 Modal Widget
+1. No third party module dependency
+2. Use Magento 2 Modal Widget
 
 ## Todo List
 1. Support different product types
@@ -45,7 +44,7 @@ composer remove siyu/magento-2-quickview
 
 ### v1.0.3
 Notes:
-1. Fix swatches now displaying problem in the quickview popup window
+1. Fix swatches not displaying in the quickview popup window issue
 
 Released on 2018-01-17
 
