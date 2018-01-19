@@ -11,6 +11,7 @@
         <referenceBlock name="footer-container" remove="true"/>
         <referenceBlock name="page.top" remove="true" />
         <referenceBlock name="copyright" remove="true" />
+        <referenceBlock name="product.info.sku" ifconfig="siyu_quickview/general/hide_sku" remove="true"  />
         <referenceBlock name="authentication-popup" remove="true" />
         <referenceBlock name="product.info.details" remove="true"/>
         <referenceBlock name="product.info.options.wrapper">

@@ -5,6 +5,7 @@
         <sequence>
             <module name="Magento_Backend" />
             <module name="Magento_Catalog" />
+            <module name="Siyu_BlockPatch" />
         </sequence>
     </module>
 </config>

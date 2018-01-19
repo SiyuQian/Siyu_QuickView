@@ -9,8 +9,8 @@ class ProductListPlugin
      * Configuration path from Magento backend
      */
     const CONFIG_PATH_QUICKVIEW_ENABLED = 'siyu_quickview/general/active';
-    const CONFIG_PATH_QUICKVIEW_TEXT = 'siyu_quickview/general/buttontext';
-    const CONFIG_PATH_QUICKVIEW_CLASSNAME = 'siyu_quickview/general/classname';
+    const CONFIG_PATH_QUICKVIEW_TEXT = 'siyu_quickview/general/button_text';
+    const CONFIG_PATH_QUICKVIEW_CLASSNAME = 'siyu_quickview/general/button_classes';
 
     /**
      * @var \Magento\Framework\UrlInterface

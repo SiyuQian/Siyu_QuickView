@@ -11,10 +11,14 @@
                     <label>Module Activation</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="buttontext" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="hide_sku" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Hide Sku in Popup</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="button_text" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Button Text</label>
                 </field>
-                <field id="classname" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="button_classes" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Button CSS Class</label>
                 </field>
                 <field id="hide_short_description" translate="label" type="select" sortOrder="4" showInDefault="1" showInWebsite="0" showInStore="0">
@@ -25,12 +29,12 @@
                     <label>Hide Go To Product Button</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="hide_availability" translate="label" type="select" sortOrder="6" showInDefault="1" showInWebsite="0" showInStore="0">
-                    <label>Hide Availability</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
                 <field id="hide_qty_input" translate="label" type="select" sortOrder="7" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Hide Qty Input</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="hide_social_links" translate="label" type="select" sortOrder="8" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Hide Social Links</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
             </group>
