@@ -23,8 +23,9 @@ composer require siyu/magento-2-quickview:dev-master
 
 ## Uninstall
 ``` bash
-./bin/magento module:disable Siyu_QuickView --clear-static-content
+./bin/magento module:disable Siyu_BlockPatch Siyu_QuickView --clear-static-content
 composer remove siyu/magento-2-quickview
+composer remove siyu/magento-2-core-block-patch
 ./bin/magento setup:di:compile
 ```
 
