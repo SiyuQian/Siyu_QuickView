@@ -14,8 +14,9 @@ There are some of the **QuickView extensions** out there already **why build thi
 
 ## Installation
 ``` bash
+composer require siyu/magento-2-core-block-patch:dev-master
 composer require siyu/magento-2-quickview:dev-master
-./bin/magento module:enable Siyu_QuickView
+./bin/magento module:enable Siyu_BlockPatch Siyu_QuickView 
 ./bin/magento setup:upgrade
 ./bin/magento setup:di:compile
 ```
@@ -27,13 +28,9 @@ composer remove siyu/magento-2-quickview
 ./bin/magento setup:di:compile
 ```
 
-## Feature list
-1. No third party module dependency
-2. Use Magento 2 Modal Widget
-
 ## Todo List
 1. Support different product types
-2. Performance improvement
+2. Add loading animation before popup comes up
 3. Allow to add cross-sell & related products slider in QuickView popup
 4. Allow settings of different sizes of QuickView popup window
 5. Ajax-add-to-cart support
@@ -41,6 +38,14 @@ composer remove siyu/magento-2-quickview
 7. Add options in backend for various custom needs
 
 ## CHANGELOG
+
+### v1.0.4
+Notes:
+1. Code tidyup
+2. Allow to hide sku from backend setting
+3. Add BlockPatch dependency to allow ifconfig in remove handler
+
+Released on 2018-01-20
 
 ### v1.0.3
 Notes:
