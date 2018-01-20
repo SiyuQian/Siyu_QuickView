@@ -2,7 +2,7 @@
     "name": "siyu/magento-2-quickview",
     "description": "An extension for Magento 2",
     "type": "magento2-module",
-    "license": "Apache License 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Siyu Qian",
